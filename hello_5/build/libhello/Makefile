@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.12.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lmxing/Documents/code/cpp/cmake/hello_4
+CMAKE_SOURCE_DIR = /Users/lmxing/Documents/code/cpp/cmake/hello_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lmxing/Documents/code/cpp/cmake/hello_4/build
+CMAKE_BINARY_DIR = /Users/lmxing/Documents/code/cpp/cmake/hello_5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/lmxing/Documents/code/cpp/cmake/hello_4/build/CMakeFiles /Users/lmxing/Documents/code/cpp/cmake/hello_4/build/libhello/CMakeFiles/progress.marks
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lmxing/Documents/code/cpp/cmake/hello_4/build/CMakeFiles 0
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/lmxing/Documents/code/cpp/cmake/hello_5/build/CMakeFiles /Users/lmxing/Documents/code/cpp/cmake/hello_5/build/libhello/CMakeFiles/progress.marks
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lmxing/Documents/code/cpp/cmake/hello_5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/clean
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/preinstall
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/preinstall
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libhello/CMakeFiles/libhello.dir/rule:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/CMakeFiles/libhello.dir/rule
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f CMakeFiles/Makefile2 libhello/CMakeFiles/libhello.dir/rule
 .PHONY : libhello/CMakeFiles/libhello.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ libhello: libhello/CMakeFiles/libhello.dir/rule
 
 # fast build rule for target.
 libhello/fast:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/build
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/build
 .PHONY : libhello/fast
 
 hello.o: hello.c.o
@@ -131,7 +131,7 @@ hello.o: hello.c.o
 
 # target to build an object file
 hello.c.o:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/hello.c.o
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/hello.c.o
 .PHONY : hello.c.o
 
 hello.i: hello.c.i
@@ -140,7 +140,7 @@ hello.i: hello.c.i
 
 # target to preprocess a source file
 hello.c.i:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/hello.c.i
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/hello.c.i
 .PHONY : hello.c.i
 
 hello.s: hello.c.s
@@ -149,7 +149,7 @@ hello.s: hello.c.s
 
 # target to generate assembly for a file
 hello.c.s:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/hello.c.s
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(MAKE) -f libhello/CMakeFiles/libhello.dir/build.make libhello/CMakeFiles/libhello.dir/hello.c.s
 .PHONY : hello.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/lmxing/Documents/code/cpp/cmake/hello_4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/lmxing/Documents/code/cpp/cmake/hello_5/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/lmxing/Documents/code/cpp/cmake/hello_4/libhello 
+C_INCLUDES = -I/Users/lmxing/Documents/code/cpp/cmake/hello_5/libhello 
 

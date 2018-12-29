@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lmxing/Documents/code/cpp/cmake/hello_4/src
+# Install script for directory: /Users/lmxing/Documents/code/cpp/cmake/hello_5/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

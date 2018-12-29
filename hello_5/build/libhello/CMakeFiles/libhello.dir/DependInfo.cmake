@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/lmxing/Documents/code/cpp/cmake/hello_4/libhello/hello.c" "/Users/lmxing/Documents/code/cpp/cmake/hello_4/build/libhello/CMakeFiles/libhello.dir/hello.c.o"
+  "/Users/lmxing/Documents/code/cpp/cmake/hello_5/libhello/hello.c" "/Users/lmxing/Documents/code/cpp/cmake/hello_5/build/libhello/CMakeFiles/libhello.dir/hello.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
