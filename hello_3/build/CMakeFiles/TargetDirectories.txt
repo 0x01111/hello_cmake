@@ -1,0 +1,4 @@
+/Users/lmxing/Documents/code/cpp/cmake/hello_3/build/CMakeFiles/hello.dir
+/Users/lmxing/Documents/code/cpp/cmake/hello_3/build/CMakeFiles/rebuild_cache.dir
+/Users/lmxing/Documents/code/cpp/cmake/hello_3/build/CMakeFiles/edit_cache.dir
+/Users/lmxing/Documents/code/cpp/cmake/hello_3/build/CMakeFiles/libhello.dir
