@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lmxing/Documents/code/cpp/cmake/hello
+# Install script for directory: /Users/lmxing/Documents/code/cpp/cmake/hello_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lmxing/Documents/code/cpp/cmake/hello/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lmxing/Documents/code/cpp/cmake/hello_1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

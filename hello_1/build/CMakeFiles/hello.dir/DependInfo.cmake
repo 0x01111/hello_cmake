@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/lmxing/Documents/code/cpp/cmake/hello/main.c" "/Users/lmxing/Documents/code/cpp/cmake/hello/build/CMakeFiles/hello.dir/main.c.o"
+  "/Users/lmxing/Documents/code/cpp/cmake/hello_1/main.c" "/Users/lmxing/Documents/code/cpp/cmake/hello_1/build/CMakeFiles/hello.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
